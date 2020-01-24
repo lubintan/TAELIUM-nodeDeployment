@@ -1,0 +1,19 @@
+sudo apt-get install python
+sudo apt-get install python-pip
+
+$ export LC_ALL=C 
+**(if pip locale error)
+
+
+pip install selenium
+
+wget https://github.com/mozilla/geckodriver/releases/download/v0.20.0/geckodriver-v0.20.0-linux64.tar.gz
+
+tar -xzvf geckodriver-v0.20.0-linux64.tar.gz
+
+chmod +x geckodriver
+
+sudo cp geckodriver /usr/local/bin 
+
+
+/home/ubuntu/Desktop/preIco/alexisSanchez.jpeg
